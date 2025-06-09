@@ -1,0 +1,25 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Development files
+.github/
+scripts/
+examples/
+claude-config-example.json
+
+# Config files
+tsconfig.json
+.gitignore
+.npmignore
+
+# Test files
+*.test.js
+*.test.d.ts
+test-harness.*
+
+# Misc
+.DS_Store
+*.log
+node_modules/

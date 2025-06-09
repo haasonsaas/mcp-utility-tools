@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "utility-tools": {
+      "command": "node",
+      "args": ["/Users/jonathanhaas/evalops/mcp-tools/mcp-utility-tools/build/index-v2.js"],
+      "env": {}
+    }
+  }
+}

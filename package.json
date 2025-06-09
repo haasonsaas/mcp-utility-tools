@@ -1,0 +1,57 @@
+{
+  "name": "mcp-utility-tools",
+  "version": "1.0.0",
+  "description": "Utility tools for Model Context Protocol - caching, retry logic, batch operations, and rate limiting",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "cache",
+    "retry",
+    "rate-limit",
+    "batch",
+    "utility"
+  ],
+  "homepage": "https://github.com/haasonsaas/mcp-utility-tools#readme",
+  "bugs": {
+    "url": "https://github.com/haasonsaas/mcp-utility-tools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haasonsaas/mcp-utility-tools.git"
+  },
+  "license": "MIT",
+  "author": "Jonathan Haas <jonathan@haas.holdings>",
+  "main": "build/index-v2.js",
+  "types": "build/index-v2.d.ts",
+  "type": "module",
+  "bin": {
+    "mcp-utility-tools": "./build/index-v2.js"
+  },
+  "files": [
+    "build/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index-v2.js",
+    "test": "node --test build/**/*.test.js",
+    "test:integration": "node build/test-harness.js",
+    "prepublishOnly": "npm run build && npm test",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
