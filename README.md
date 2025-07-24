@@ -6,6 +6,10 @@
 
 A collection of utility tools for the Model Context Protocol (MCP) that provide caching, retry logic, batch operations, and rate limiting capabilities to enhance any MCP-based workflow.
 
+<a href="https://glama.ai/mcp/servers/@haasonsaas/mcp-utility-tools">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@haasonsaas/mcp-utility-tools/badge" alt="Utility Tools MCP server" />
+</a>
+
 ## Features
 
 - 🔄 **Retry with Exponential Backoff** - Automatically retry failed operations with configurable delays
