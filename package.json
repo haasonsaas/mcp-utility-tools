@@ -45,7 +45,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "0.6.0"
+    "@modelcontextprotocol/sdk": "1.25.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
